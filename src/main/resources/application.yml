@@ -1,0 +1,14 @@
+guru:
+  jms:
+    username: JMS User
+    password: hardpassword
+    url: SomeUrl
+
+# file seperator is 3 dashes.
+# The profile overides the first one.
+---
+spring:
+  profiles:de
+guru:
+  jms:
+    username: JMS Username $$$German
