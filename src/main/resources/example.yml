@@ -1,0 +1,34 @@
+# this is a comment
+
+name: Sal
+
+names: #Inline comment
+  -Sal
+  -Paul
+  -Ringo
+
+  book:
+    author: Joe Buck
+    publisher: Random House
+
+truth: yes
+
+another_truth: yes
+
+more_true: yes
+
+false: no
+
+#must escapte out single quote for a string by surrounding it with double quotes.
+#Same goes for colon.
+string_val: "This is it's quote"
+
+include_new_lines: |
+  asdf asd a sd
+   asd ea ea da
+   asdf asd fae as
+
+ignore_new_lines: >
+  this is
+  just one long
+  string
